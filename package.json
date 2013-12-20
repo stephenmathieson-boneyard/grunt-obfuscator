@@ -1,0 +1,26 @@
+{
+	"name": "grunt-obfuscator",
+	"version": "0.0.1",
+	"description": "Obfuscate nodejs projects via Grunt",
+	"keywords": [
+    "grunt",
+    "gruntplugin",
+    "obfuscate",
+    "obfuscator"
+  ],
+	"author": "Stephen Mathieson <me@stephenmathieson.com>",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/stephenmathieson/grunt-obfuscator.git"
+	},
+	"dependencies": {
+		"obfuscator": "~0.2.2"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"better-assert": "~1.0.0"
+	},
+	"scripts": {
+		"test": "make test"
+	}
+}
