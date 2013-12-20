@@ -14,7 +14,7 @@
 		"url": "git://github.com/stephenmathieson/grunt-obfuscator.git"
 	},
 	"dependencies": {
-		"obfuscator": "~0.2.2"
+		"obfuscator": "~0.3.0"
 	},
 	"devDependencies": {
 		"grunt": "~0.4.2",
