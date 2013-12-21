@@ -1,4 +1,3 @@
-
 # grunt-obfuscator
 
   Obfuscate nodejs projects via Grunt
@@ -40,7 +39,7 @@ grunt.initConfig({
 
 ### `entry`
 
-  Your projects entry point, for example `app.js`.
+  Your project's entry point, for example `app.js`.
 
 ### `out`
 
