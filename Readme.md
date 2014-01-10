@@ -1,12 +1,10 @@
+
 # grunt-obfuscator
 
   Obfuscate nodejs projects via Grunt
 
 [![Build Status](https://travis-ci.org/stephenmathieson/grunt-obfuscator.png?branch=master)](https://travis-ci.org/stephenmathieson/grunt-obfuscator)
 
-## Notice
-
-  I'm looking for a maintainer for this project.  I don't use Grunt, so I have no desire to maintain this.  If you're interested, please let me know via issue or email.
 
 ## Installation
 
