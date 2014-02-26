@@ -5,9 +5,6 @@
 
 [![Build Status](https://travis-ci.org/stephenmathieson/grunt-obfuscator.png?branch=master)](https://travis-ci.org/stephenmathieson/grunt-obfuscator)
 
-## Notice
-
-  I'm looking for a maintainer for this project.  I don't use Grunt, so I have no desire to maintain this.  If you're interested, please let me know via issue or email.
 
 ## Installation
 
@@ -40,7 +37,7 @@ grunt.initConfig({
 
 ### `entry`
 
-  Your projects entry point, for example `app.js`.
+  Your project's entry point, for example `app.js`.
 
 ### `out`
 
