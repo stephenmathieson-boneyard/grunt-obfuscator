@@ -14,7 +14,7 @@
     "url": "git://github.com/stephenmathieson/grunt-obfuscator.git"
   },
   "dependencies": {
-    "obfuscator": "ali-bugdayci/grunt-obfuscator"
+    "obfuscator": "ali-bugdayci/node-obfuscator"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
