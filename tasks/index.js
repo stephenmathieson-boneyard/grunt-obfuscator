@@ -10,9 +10,10 @@ module.exports = function(grunt) {
     var out = option('out');
     var strings = option('strings');
     var files = option('files');
+    var excludes = option('excludes');
 
     files = grunt.file.expand(files);
-    var options = new obfuscator.Options(files, root, entry, strings);
+    var options = new obfuscator.Options(files, root, entry, strings,excludes);
 
     obfuscator(options, function (err, data) {
       if (err) {
