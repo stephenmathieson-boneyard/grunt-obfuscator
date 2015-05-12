@@ -4,12 +4,14 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     obfuscator: {
-      files: [
+      src: [
         './*.js'
       ],
-      root: __dirname,
-      entry: 'app.js',
-      out: 'out.js'
+      options: {
+        root: __dirname,
+        entry: 'app.js',
+        out: 'out.js'
+      }
     }
   });
 };
