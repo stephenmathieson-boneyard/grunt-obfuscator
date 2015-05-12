@@ -17,14 +17,18 @@ grunt.loadNpmTasks('grunt-obfuscator');
 
 grunt.initConfig({
   obfuscator: {
-    files: [
-      'app.js',
-      'lib/routes/*.js'
-    ],
-    entry: 'app.js',
-    out: 'obfuscated.js',
-    strings: true,
-    root: __dirname
+    app: {
+      src: [
+        'app.js',
+        'lib/routes/*.js'
+      ],
+      options: {
+        entry: 'app.js',
+        out: 'obfuscated.js',
+        strings: true,
+        root: __dirname
+      }
+    }
   }
 });
 ```
