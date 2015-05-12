@@ -6,7 +6,7 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('obfuscator', 'Obfuscate Node JS projects.', function () {
     var fn = this.async(),
       opts = this.options,
-      options = new Obfuscator.Options(
+      options = new obfuscator.Options(
         this.filesSrc,
         opts.root,
         opts.entry,
