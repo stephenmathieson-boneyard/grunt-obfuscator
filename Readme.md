@@ -26,7 +26,10 @@ grunt.initConfig({
         entry: 'app.js',
         out: 'obfuscated.js',
         strings: true,
-        root: __dirname
+        root: __dirname,
+        compressor: {
+          warnings: true
+        }
       }
     }
   }
