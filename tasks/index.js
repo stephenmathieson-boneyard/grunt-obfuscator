@@ -36,7 +36,11 @@ module.exports = function(grunt) {
       'warnings',
       'global_defs'
     ].forEach(function(key) {
-      options.compressor[key] = opts[key] || obfuscatorCompressDefaults[key];
+      if(opts.hasOwnProperty(key)) {
+      	options.compressor[key] = opts[key];
+      } else {
+      	options.compressor[key] = obfuscatorCompressDefaults[key];
+      }
     });
 
     obfuscator(options, function (err, data) {

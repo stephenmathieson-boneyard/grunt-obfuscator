@@ -10,8 +10,7 @@ module.exports = function (grunt) {
       options: {
         root: __dirname,
         entry: 'app.js',
-        out: 'out.js',
-        warnings: true
+        out: 'out.js'
       }
     }
   });
