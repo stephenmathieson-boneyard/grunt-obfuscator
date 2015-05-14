@@ -26,10 +26,7 @@ grunt.initConfig({
         entry: 'app.js',
         out: 'obfuscated.js',
         strings: true,
-        root: __dirname,
-        compressor: {
-          warnings: true
-        }
+        root: __dirname
       }
     }
   }
@@ -40,7 +37,7 @@ grunt.initConfig({
 
 ### `files`
 
-  An array of files to be obfuscated.  This must include every `require()`-ed file in your project.  Wildcards `e.g. "./lib/**/*.js"` are accepted.  
+  An array of files to be obfuscated.  This must include every `require()`-ed file in your project.  Wildcards `e.g. "./lib/**/*.js"` are accepted.
 
 ### `entry`
 
@@ -58,7 +55,7 @@ grunt.initConfig({
 
   The base directory.  Usually `__dirname` works just fine.
 
-## License 
+## License
 
 (The MIT License)
 
